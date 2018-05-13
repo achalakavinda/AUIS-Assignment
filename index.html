@@ -39,9 +39,11 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">             
               <ul class="nav navbar-nav navbar-right">
                 <li><a style="background: black" data-scroll  href="#home">Home</a></li>
-                <li><a data-scroll  href="#gallery">Gallery</a></li>
-                <li><a data-scroll  href="#book">Animals</a></li>
-                <li><a data-scroll  href="#location">Map</a></li>
+                <li><a data-scroll  href="#explore">Explore</a></li>
+                <li><a data-scroll  href="animals.html">Animals</a></li>
+                <li><a data-scroll  href="map.html">Garden Map</a></li>
+                <li><a data-scroll  href="resturent.html">Resturents</a></li>
+                <li><a data-scroll  href="showtime.html">Show Times</a></li>
                 <li><a data-scroll  href="#contact">Contact</a></li>
               </ul>
             </div><!-- /.navbar-collapse -->
@@ -63,7 +65,7 @@
       </section>
       
       
-        <section id="gallery">
+        <section id="explore">
         <div class="gallery-wrapper">
             <div class="container">
                 <div class="row">
@@ -107,9 +109,9 @@
                                 </div>
                             </div>  
                             <div class="col-md-6 col-sm-6  wow slideInLeft">
-                                <div id="img_3" class="gallery-wrap">
+                                <div id="img_4" class="gallery-wrap">
                                     <div class="gallery-wrap-black">
-                                        <p class="view-p"><a href="resturent.html">Resturents</a></p>
+                                        <p class="view-p"><a href="showtime.html">Show Time</a></p>
                                     </div>
                                 
                                 </div>
@@ -149,9 +151,15 @@
               var scroll = new SmoothScroll('a[href*="#"]');
            
            $("#images").backstretch([
-              "./images/banner1.jpg"
+              "./images/banner2.jpg",
+               "./images/banner1.jpg",
+               "./images/banner3.jpg"
           ], {duration: 3000, fade: 750});
-//           $("#content").backstretch("./images/welcome.jpg");
+//           
+          $("#img_1").backstretch("./images/img1.jpg");
+          $("#img_2").backstretch("./images/img2.jpg");
+          $("#img_3").backstretch("./images/img3.jpg");
+          $("#img_4").backstretch("./images/img4.jpg");
         
     
 
