@@ -18,6 +18,7 @@
      <link href="css/animate.css" rel="stylesheet">   
      <link href="css/font-awesome.css" rel="stylesheet"> 
      <link href="css/animals.css" rel="stylesheet"> 
+     <link href="css/index-auis.css" rel="stylesheet"> 
   </head>
   <body>
        
@@ -37,10 +38,10 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">             
               <ul class="nav navbar-nav navbar-right">
-                <li><a class="active" data-scroll  href="#home">Home</a></li>
+                <li><a style="background: black" data-scroll  href="#home">Home</a></li>
                 <li><a data-scroll  href="#gallery">Gallery</a></li>
-                <li><a data-scroll  href="#book">Booking</a></li>
-                <li><a data-scroll  href="#location">Location</a></li>
+                <li><a data-scroll  href="#book">Animals</a></li>
+                <li><a data-scroll  href="#location">Map</a></li>
                 <li><a data-scroll  href="#contact">Contact</a></li>
               </ul>
             </div><!-- /.navbar-collapse -->
@@ -51,9 +52,9 @@
         <section id="home">
         <div class="home-header">   
             <div class="wrapper">
-             <div id="images" class="image-holder"></div> 
+             <div style="position:fixed;top: 0px;height: 100vh" id="images" class="image-holder"></div> 
                 <div class="home-content">
-                    <p>What is Lorem Ipsum? <br/>Zoo Court</p>
+                    <p class="wow slideInLeft" style="color:;background: rgba(0,0,0,0.9);padding: 10px 0px 10px 0px">National Zoological Gardens<br/>Sri Lanka</p>
             </div>
             </div>
             
@@ -61,25 +62,69 @@
         </div>
       </section>
       
-      <section style="background: #ced6e0" id="content">
-        <div class="welcome">
-          
+      
+        <section id="gallery">
+        <div class="gallery-wrapper">
             <div class="container">
-                <div class="col-md-12">
-                    <div class="welcom-text  wow slideInLeft">
-                            <p class="h2">What is Lorem Ipsum? </p>
-                            <p class="h1">Welcome to Lemon Court</p>
-                            <img class="hr-img" src="http://www.pngmart.com/files/3/Horizontal-Line-Transparent-PNG.png">
-                            <p class="text-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <div class="row">
+                    <div class="col-md-6  wow slideInLeft">
+                        <div style="padding-bottom:20px;" class="description">
+                            <p  class="h2"> Explore Zoological Garden </p>
+                            <img  class="hr-img" src="./images/hr.png">
+                            <p style="text-align:left;" class="h1">See what <br/> everyone 
+                                <br/>is talking about</p>
+                            <p class="des">
+                                Ipsum offal umami +1 microdosing you probably haven't <br/> heard of them food truck. Enamel pin kinfolk<br/> tacos keytar umami semiotics raclette <br/> palo santo plaid williamsburg butcher shabby <br/>chic swag. Post-ironic food truck squid,<br/> blue bottle
+                            </p>
+                        </div>                    
                     </div>
-                </div>
-            </div>  
-        </div>
-            <div class="dog body bodySlant earsBasic">
-              <div class="face"></div>
-              <div class="features"></div>
+                    
+                    <div style="border:1px solid black" class="col-md-6 gallery-box wow slideInLeft">                        
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6  wow slideInLeft">
+                                <div id="img_1" class="gallery-wrap">
+                                    <div class="gallery-wrap-black">
+                                        <p class="view-p"><a href="animals.html">Animals</a></p>
+                                    </div>
+                                
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6  wow slideInLeft">
+                                 <div id="img_2" class="gallery-wrap">
+                                     <div class="gallery-wrap-black">
+                                        <p class="view-p"><a href="map.html">Garden Map</a></p>
+                                    </div>
+                                </div>
+                            </div>                          
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6  wow slideInLeft">
+                                <div id="img_3" class="gallery-wrap">
+                                    <div class="gallery-wrap-black">
+                                        <p class="view-p"><a href="resturent.html">Resturents</a></p>
+                                    </div>
+                                
+                                </div>
+                            </div>  
+                            <div class="col-md-6 col-sm-6  wow slideInLeft">
+                                <div id="img_3" class="gallery-wrap">
+                                    <div class="gallery-wrap-black">
+                                        <p class="view-p"><a href="resturent.html">Resturents</a></p>
+                                    </div>
+                                
+                                </div>
+                            </div>  
+                          
+                        </div>
+                    
+                    </div>
+                </div>                
             </div>
+        </div>
       </section>
+      
+      
+    
       
       
      
@@ -106,12 +151,11 @@
            $("#images").backstretch([
               "./images/banner1.jpg"
           ], {duration: 3000, fade: 750});
+//           $("#content").backstretch("./images/welcome.jpg");
         
     
 
            function checkScroll(){
-
-
                 var startY = $('.navbar').height() * 1; //The point where the navbar changes in px
                if($(window).scrollTop() > startY){
                     $('.navbar').addClass("scrolled");

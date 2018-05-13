@@ -49,13 +49,12 @@ nav{
 .home-header{
     position: relative;
     width: 100%;
-    min-height:100vh;
-    background: rgba(0,0,0,0.7);
+    background: rgba(0,0,0,0.2);
     
 }
 .home-content{
     position:relative;
-    min-height: 100vh;
+    min-height: 80vh;
     width: 100%;
     padding-top:35vh;
     padding-left: 20%;
@@ -70,9 +69,7 @@ nav{
 }
 .wrapper{
     width: 100%;
-    height: 100%;
-    background: rgba(0,0,0,0.1)
-    
+    height: 100%;    
 }
 .book-btn{
     padding: 10px;

@@ -66,7 +66,7 @@ Last Updated 2017 November 01
     transition: all ease 1s;
 }
 .hotel-container:hover .hotel-body>.wrapper{
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0,0,0,0.5);
      transition: all ease 1s;
 }
 .hotel-body{

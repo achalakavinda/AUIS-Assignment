@@ -1,0 +1,23 @@
+#content{
+    padding-bottom: 50px;
+    background: white;
+}
+#gallery{
+   position: relative;
+   background-color: rgba(255,255,255,0.94);
+   padding: 50px;
+    padding-top: 20px;
+}
+.view-p> a{
+    text-decoration: none;
+    color: white;
+    transition: all ease 0.4s;
+}
+
+.view-p>a:hover{
+    color: black;
+    transition: all ease 0.4s;
+    background-color: white;
+    padding: 5px 10px 5px 10px;
+    font-size: 150%;
+}
