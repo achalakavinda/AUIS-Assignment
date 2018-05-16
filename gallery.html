@@ -26,23 +26,20 @@ Last Updated 2017 November 01
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="https://scontent.fcmb1-1.fna.fbcdn.net/v/t1.0-9/15400491_251643425249946_3284517377572385452_n.png?oh=1eb6d14669315e1c0b0cba66b6f3ae0d&oe=5A62D38B" type="image/x-icon" />
 
-    <title>Welcome || Lemon Court</title>
+      <title>Zoological Garden | Gallery</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- Main css -->
-    <link href="css/main.css"  rel="stylesheet">
-    <!-- Shake css -->
-    <link href="css/shakecss.css" rel="stylesheet">
-    <!-- Animated css -->
-    <link href="css/animate.css" rel="stylesheet">
-    <!-- Font awesome css -->
-    <link href="css/font-awesome.css" rel="stylesheet">
-    <!-- gallery css -->
-    <link href="css/gallery.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
-    <link rel="stylesheet" href="fluid-gallery.css">
+       <!-- Main Css -->
+    <link href="css/main.css"  rel="stylesheet"> 
+    <!-- Index Css -->
+    <link href="css/index.css" rel="stylesheet">  
+    <!-- Shake Css -->
+     <link href="css/shakecss.css" rel="stylesheet">   
+     <link href="css/animate.css" rel="stylesheet">   
+     <link href="css/font-awesome.css" rel="stylesheet"> 
+     <link href="css/animals.css" rel="stylesheet"> 
+     <link href="css/index-auis.css" rel="stylesheet"> 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -52,7 +49,7 @@ Last Updated 2017 November 01
   </head>
   <body>
       
-       <nav id="_nav" class="navbar navbar-default navbar-fixed-top">
+       <nav style="border-bottom: none" id="_nav" class="navbar navbar-default navbar-fixed-top">
           <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -68,22 +65,24 @@ Last Updated 2017 November 01
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">             
               <ul class="nav navbar-nav navbar-right">
-                <li><a  href="index.php">Home</a></li>
-                <li><a data-scroll  href="#gallery">Gallery</a></li>
-                <li><a data-scroll  href="index.php">Booking</a></li>
-                <li><a data-scroll  href="#contact">Contact</a></li>
+                <li><a style="background: black;color:white" data-scroll  href="#home">Home</a></li>
+                <li><a data-scroll  href="#explore">Explore</a></li>
+                <li><a data-scroll  href="animals.html">Animals</a></li>
+                <li><a data-scroll  href="map.html">Garden Map</a></li>
+                <li><a data-scroll  href="resturent.html">Resturents</a></li>
+                <li><a data-scroll  href="showtime.html">Show Times</a></li>
               </ul>
             </div><!-- /.navbar-collapse -->
           </div><!-- /.container-fluid -->
         </nav>
      
       <!-- /Navigation Bar -->
-      <section id="home">
+  <section id="home">
         <div class="home-header">   
             <div class="wrapper">
-             <div id="images" class="image-holder"></div> 
+             <div style="position:fixed;top: 0px;height: 100vh" id="images" class="image-holder"></div> 
                 <div class="home-content">
-                    <p>Luxury Bungalows in Nuwara Eliya ,Sri Lanka <br/>Lemon Court</p>                    
+                    <p class="wow slideInLeft" style="color:;background: rgba(0,0,0,0.9);padding: 10px 0px 10px 0px">Zoological Gardens<br/>Viago State</p>
             </div>
             </div>
             
@@ -104,8 +103,8 @@ Last Updated 2017 November 01
             <div class="tz-gallery">
                 <div class="row">
                     <div class="col-sm-12 col-md-4 wow slideInLeft">
-                        <a class="lightbox" href="./img/pic/10.png">
-                            <img src="./img/pic/10.png" >
+                        <a class="lightbox" href="./images/Elephant.jpg">
+                            <img src="./images/Elephant.jpg" >
                         </a>
                     </div>
                      <div class="col-sm-12 col-md-4 wow slideInLeft">
@@ -274,73 +273,6 @@ Last Updated 2017 November 01
       
       
       
-      <section id="footer">
-
-          <footer>
-              <div class="container">
-                  <div class="row">
-
-                      <div class="col-md-6 col-sm-6  wow slideInLeft">
-                          <div class="footer-left">
-                              <img style="margin-bottom:20px;" src="https://scontent.fcmb1-1.fna.fbcdn.net/v/t1.0-9/15400491_251643425249946_3284517377572385452_n.png?oh=1eb6d14669315e1c0b0cba66b6f3ae0d&oe=5A62D38B">
-                              <p>Tea Trails, Cape Weligama & <br/>Wild Coast Tented Lodge
-                                  are the only Relais & Chateaux resorts in <br/>Sri Lanka</p>
-                              <ul class="social-media">
-                                  <li>
-                                      <a target="_blank" href="https://www.facebook.com/villa.lemon.court/">
-                                          <img src="./img/fb.png">
-                                      </a>
-                                  </li>
-                                  <li>
-                                      <a target="_blank" href="https://www.facebook.com/villa.lemon.court/">
-                                          <img src="./img/insta.png">
-                                      </a>
-                                  </li>
-                                  <li>
-                                      <a target="_blank" href="https://www.facebook.com/villa.lemon.court/">
-                                          <img src="./img/tw.png">
-                                      </a>
-                                  </li>
-                              </ul>
-                          </div>
-
-                      </div>
-                      <div class="col-md-6 col-sm-6  wow slideInLeft">
-                          <p style="text-align:right;padding-right:30px;" class="h2">Contact Us</p>
-                          <img style="width:100%;height:70px;margin-top:-20px" class="hr-img" src="http://www.pngmart.com/files/3/Horizontal-Line-PNG-Clipart.gif">
-                          <form action="index.php#contact" id="contactForm" method="post" class="form" role="form">
-                              <div class="row">
-                                  <div class="col-xs-6 col-md-6 form-group">
-                                      <input class="form-control" id="contact-name" name="cname" placeholder="Name" type="text" />
-                                  </div>
-                                  <div class="col-xs-6 col-md-6 form-group">
-                                      <input class="form-control" id="contact_email" name="cemail" placeholder="Email" type="email"/>
-                                  </div>
-                              </div>
-                              <textarea class="form-control" id="contact_message" name="cmessage" placeholder="Message" rows="5"></textarea>
-                              <br />
-                              <div class="row">
-                                  <div class="col-xs-12 col-md-12 form-group">
-                                      <button href="#" class="btn-my pull-right" type="submit">Submit</button>
-                                  </div>
-                              </div>
-                          </form>
-                      <hr/>
-                      <ul class="contact-list wow slideInLeft">
-                          <li>+94 77 369 8230 <i class="fa fa-phone"></i></li>
-                          <li>info@villalemoncourt.com  <i class="fa fa-envelope"></i></li>
-                          <li>Nuwaraeliya, Nuwara Eliya 22200  <i class="fa fa-address-card-o"></i></li>
-                      </ul>
-                  </div>
-
-
-              </div>
-              </div>
-          </footer>
-          
-      </section>
-      
-      
     
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -359,24 +291,16 @@ Last Updated 2017 November 01
       <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>      
       <script src="./node_modules/jquery-validation/dist/jquery.validate.js"></script>
       <script>
-          
+           $("#images").backstretch([
+              "./images/banner2.jpg",
+               "./images/banner3.jpg"
+          ], {duration: 3000, fade: 750});
           baguetteBox.run('.tz-gallery');
           
         
          new WOW().init();
           var scroll = new SmoothScroll('a[href*="#"]');
-        
-        $("#images").backstretch([
-              "./img/pic/11.png"
-            , "./img/pic/30.png"
-            , "./img/pic/3.png"
-            , "./img/pic/6.png"
-            , "./img/pic/15.png"
-            , "./img/pic/17.png"
-            , "./img/pic/31.png"
-            , "./img/pic/32.png"
-          ], {duration: 3000, fade: 750});
-          
+
          
           
            function checkScroll(){
@@ -426,18 +350,6 @@ $.fn.masonryImagesReveal = function ($items) {
 
     return this;
 };
-          $('#contactForm').validate({
-              rules:{
-                  cname:'required',
-                  cmessage:'required',
-                  cemail:{
-                      required: true,
-                      // Specify that email should be validated
-                      // by the built-in "email" rule
-                      email: true
-                  }
-              }
-          });
 
           var navMain = $(".navbar-collapse"); // avoid dependency on #id
           // "a:not([data-toggle])" - to avoid issues caused
