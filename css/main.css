@@ -28,7 +28,9 @@ nav{
     background: rgba(255,255, 255,0.9); /* IE */
     background: rgba(255,255, 255,0.9); /* NON-IE */
     transition: all ease 1s;
+    font-weight: 700;
 }
+
 .navigation{
     height: 70px;
     padding-top: 20px;
@@ -44,6 +46,7 @@ nav{
     color: white;
     font-size: 120%;
     transition: all ease 1s;
+    font-weight: 700;
 }
 
 .home-header{

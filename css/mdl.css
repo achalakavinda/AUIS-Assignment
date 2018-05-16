@@ -1,0 +1,25 @@
+.modal-title{
+    padding: 0px;
+    margin-bottom: 0px;
+}
+.model-cn{
+    position: relative;
+    width: 100%;
+}
+.img-wrp{
+    height: 200px;
+}
+.model-footer> .btn{
+    background-color: black;
+    color: white;
+}
+.btns{
+    padding: 5px 10px 5px 10px;
+    background-color: rebeccapurple;
+    color: white;
+    border-radius: 0px;
+}
+.desc{
+    padding: 10px;
+    font-size: 120%;
+}

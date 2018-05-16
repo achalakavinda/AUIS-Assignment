@@ -42,8 +42,8 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a  href="animals.html">Animals</a></li>
                 <li><a  href="map.html">Garden Map</a></li>
-                <li><a style="background: black"   href="resturent.html">Resturents</a></li>
-                <li><a   href="showtime.html">Show Times</a></li>
+                <li><a    href="resturent.html">Resturents</a></li>
+                <li><a  style="background: black;color:white" href="showtime.html">Show Times</a></li>
                 <li><a  href="#contact">Contact</a></li>
               </ul>
             </div><!-- /.navbar-collapse -->
@@ -64,14 +64,22 @@
         </div>
       </section>
       
-      <section id="timeschadule">
+      <section style="background: rgba(255,255,255,0.8);padding-bottom: 100px;padding-top: 100px;margin-bottom: -50px" id="timeschadule">
         <div class="container">
-        <h1>Click the filter icon <small>(<i class="glyphicon glyphicon-filter"></i>)</small></h1>
             <div class="row">
+                 <div style="text-align: center" class="col-md-12  wow slideInLeft">
+                        <div style="padding-bottom:20px;" class="description">
+                            <p style="padding-bottom: 10px;" class="h2"> Animal Show Times </p>
+                            <img  class="hr-img" src="./images/hr.png">                            
+                            <p  style="text-align: center;font-size: 150%;padding-top: 20px;">
+                                Ipsum offal umami +1 microdosing you probably haven't 
+                            </p>
+                        </div>                    
+                    </div>
                 <div class="col-md-12">
                     <div class="panel panel-primary">
                         <div class="panel-heading">
-                            <h3 class="panel-title">Developers</h3>
+                            <h3 class="panel-title">27/01/2017</h3>
                             <div class="pull-right">
                                 <span class="clickable filter" data-toggle="tooltip" title="Toggle table filter" data-container="body">
                                     <i class="glyphicon glyphicon-filter"></i>
@@ -79,35 +87,36 @@
                             </div>
                         </div>
                         <div class="panel-body">
-                            <input type="text" class="form-control" id="dev-table-filter" data-action="filter" data-filters="#dev-table" placeholder="Filter Developers" />
+                            <input type="text" class="form-control" id="dev-table-filter" data-action="filter" data-filters="#dev-table" placeholder="Search Here" />
                         </div>
                         <table class="table table-hover" id="dev-table">
                             <thead>
                                 <tr>
                                     <th>#</th>
-                                    <th>First Name</th>
-                                    <th>Last Name</th>
-                                    <th>Username</th>
+                                    <th>Title</th>
+                                    <th>Time</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
                                     <td>1</td>
-                                    <td>Kilgore</td>
-                                    <td>Trout</td>
-                                    <td>kilgore</td>
+                                    <td>Elephant Show</td>
+                                    <td>8.30 AM</td>
                                 </tr>
                                 <tr>
                                     <td>2</td>
-                                    <td>Bob</td>
-                                    <td>Loblaw</td>
-                                    <td>boblahblah</td>
+                                    <td>Penguin Show</td>
+                                    <td>10.30 AM</td>
                                 </tr>
                                 <tr>
                                     <td>3</td>
-                                    <td>Holden</td>
-                                    <td>Caulfield</td>
-                                    <td>penceyreject</td>
+                                    <td>Crocodile Show</td>
+                                    <td>3.30 AM</td>
+                                </tr>
+                                 <tr>
+                                    <td>4</td>
+                                    <td>Elephant Show</td>
+                                    <td>4.30 AM</td>
                                 </tr>
                             </tbody>
                         </table>
